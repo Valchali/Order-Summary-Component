@@ -79,7 +79,30 @@ p {
     /* margin-bottom: 10px; */
 }
 
-.payment{
-    display: flex;
-    align-items: center;
+.payment button {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    background-color: hsl(245, 75%, 44%); 
+    border: inherit;
+    border-radius: 0.5rem;
+    padding: 15px;
+    cursor: pointer;
+    transition: .1s ease-in-out;
+    color: white;
+    font-weight: 700;
+    /* box-shadow: -2px 36px 17px -12px rgba(192,213,237,0.75); */
+    /* box-shadow: -2px 36px 17px -20px rgba(192,213,237,0.68); */
+    box-shadow: -2px 36px 17px -20px rgba(192,213,237,0.88);
+}
+.span .order-bt {
+    text-align: center;
+    width: 100px;
+    border-radius: none;
+    margin-top: 20px;
+    color: #222;
+    background-color: white;
+    box-shadow: none;
+    font-weight: 700; 
 }
